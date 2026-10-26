@@ -1,0 +1,20 @@
+PANDUAN MEMBUAT APK UDARA DARI HP MELALUI GITHUB ACTIONS
+
+Paket ini masih berupa kode sumber, bukan APK siap pasang.
+Workflow otomatis tersedia di:
+.github/workflows/build-apk.yml
+
+Langkah singkat:
+1. Masuk/buat akun GitHub.
+2. Buat repository baru bernama UDARA-Android.
+3. Unggah seluruh isi folder proyek ke repository, termasuk folder .github/workflows.
+4. Buka tab Actions.
+5. Pilih "Build UDARA Android APK" lalu "Run workflow".
+6. Setelah proses selesai, buka run tersebut dan unduh artifact "UDARA-debug-APK".
+7. Ekstrak artifact ZIP untuk mengambil app-debug.apk.
+8. Kirim APK ke HP dan pasang. Android mungkin meminta izin "Install unknown apps" untuk aplikasi yang digunakan membuka APK.
+
+PENTING:
+- Workflow menghasilkan debug APK untuk pengujian, bukan release APK bertanda tangan resmi.
+- Build dapat gagal; jika demikian, pesan error dari GitHub Actions diperlukan untuk memperbaikinya.
+- Uji dahulu dengan data fiktif. Proyek belum memiliki login admin/enkripsi database dan perhitungan jadwal masih perkiraan.

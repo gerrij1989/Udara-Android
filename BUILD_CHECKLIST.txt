@@ -1,0 +1,16 @@
+CHECKLIST PENGUJIAN UDARA ANDROID
+
+[ ] Gradle Sync berhasil di Android Studio
+[ ] Aplikasi dapat dipasang pada HP Android target
+[ ] Tambah, edit, hapus, cari pegawai
+[ ] Perhitungan umur dan penanganan tanggal lahir 29 Februari
+[ ] Nominatif A-Z
+[ ] Urutan DUK diverifikasi terhadap aturan resmi instansi
+[ ] Perhitungan tanggal KGB diuji dengan tanggal contoh
+[ ] Target pemeriksaan kenaikan pangkat tidak diperlakukan sebagai keputusan kelayakan
+[ ] Izin notifikasi Android 13+ diterima
+[ ] Pengingat H-2, H-1, hari ulang tahun diuji dengan tanggal simulasi
+[ ] Pengingat tetap berjalan setelah aplikasi ditutup / perangkat restart
+[ ] Ekspor CSV dibuka dengan benar di Excel
+[ ] Backup JSON dibuat dan dipulihkan pada instalasi uji
+[ ] Keamanan data, login admin, dan backup disetujui sebelum data resmi dimasukkan
